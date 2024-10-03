@@ -4,18 +4,18 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: 'ExpertOutsourcing',
+  siteName: 'ExpertOutsourcing',
   description:
     'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://www.expertoutsourcing.com.au',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
   image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
-  author: 'Lorem Ipsum'
+  author: 'Expert Outsouring'
 };
 
 /**
@@ -87,7 +87,7 @@ const SeoHead = (props) => {
         <link key={linkProps.href} {...linkProps} />
       ))}
       {/* Windows 8 app icon */}
-      <meta name='msapplication-TileColor' content='#F53838' />
+      <meta name='msapplication-TileColor' content='#3848f5' />
       <meta
         name='msapplication-TileImage'
         content='/favicon/ms-icon-144x144.png'
