@@ -7,11 +7,10 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='Expert Outsourcing' />
+      <SeoHead title="Expert Outsourcing" />
       <Layout>
         <Hero />
         <Feature />
-        <Pricing />
       </Layout>
     </>
   );
